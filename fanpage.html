@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Unofficial Hrithik Roshan fan page — films, career, characters and interactive fan features.">
+<title>HRITHIK — The Screen Icon</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="loader" id="loader"><div>HR</div><span>THE SCREEN ICON</span></div>
+
+<header class="hero" id="home">
+  <nav class="nav" id="nav">
+    <a href="#home" class="logo">HR<span>.</span></a>
+    <div class="links" id="links">
+      <a href="#about">About</a><a href="#films">Films</a><a href="#eras">Eras</a><a href="#fan">Fan Zone</a>
+    </div>
+    <button class="theme" id="theme" aria-label="Toggle theme">◐</button>
+    <button class="menu" id="menu" aria-label="Open navigation"><i></i><i></i></button>
+  </nav>
+
+  <div class="hero-copy reveal">
+    <p class="mono gold">THE HRITHIK ROSHAN EXPERIENCE</p>
+    <h1>HRITHIK<br><em>ROSHAN</em></h1>
+    <p class="strap">THE MAN. THE MOVEMENT. THE LEGACY.</p>
+    <p class="intro">From the phenomenon of <b>Kaho Naa... Pyaar Hai</b> to the intensity of <b>War</b> and <b>Fighter</b>, a journey through the faces and films of one of Hindi cinema's most recognisable stars.</p>
+    <div class="actions"><a class="btn" href="#about">Explore the journey ↓</a><button class="btn outline" id="factHero">Random fact ✦</button></div>
+  </div>
+
+  <div class="hero-photo reveal" id="heroPhoto">
+    <div class="frame">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Hrithik%20Roshan%20in%202016.jpg" alt="Hrithik Roshan portrait">
+      <div class="frame-label">ACTOR · DANCER · PERFORMER</div>
+    </div>
+    <div class="hero-mark">01</div>
+  </div>
+  <div class="scroll">SCROLL <span></span> DISCOVER</div>
+</header>
+
+<main>
+<section class="section about reveal" id="about">
+  <div class="index">01 / ABOUT</div>
+  <div>
+    <p class="mono gold">MORE THAN AN ACTOR</p>
+    <h2>A career built on <em>reinvention.</em></h2>
+    <p class="muted">Born on 10 January 1974 in Mumbai, Hrithik Roshan made his lead-actor debut in 2000 with <b>Kaho Naa... Pyaar Hai</b>. The film became a major success and turned him into an instant star.</p>
+    <p class="muted">Across the years he has moved between romance, drama, action, science fiction, historical cinema and biographical stories — often disappearing into very different characters.</p>
+    <div class="stats"><div><b>25+</b><span>Years in cinema</span></div><div><b>16</b><span>Posters in this fan archive</span></div><div><b>∞</b><span>Screen presence</span></div></div>
+  </div>
+</section>
+
+<section class="section films reveal" id="films">
+  <div class="index">02 / FILMOGRAPHY</div>
+  <div class="heading-row"><div><p class="mono gold">THE MOVIES</p><h2>Sixteen films.<br><em>Sixteen faces.</em></h2></div><p class="muted note">Real poster artwork is used for every film card.</p></div>
+  <div class="filters">
+    <button class="filter active" data-filter="all">ALL</button>
+    <button class="filter" data-filter="Action">ACTION</button>
+    <button class="filter" data-filter="Drama">DRAMA</button>
+    <button class="filter" data-filter="Romance">ROMANCE</button>
+    <button class="filter" data-filter="Sci-Fi">SCI-FI</button>
+  </div>
+  <div class="film-grid" id="filmGrid">
+    
+        <article class="film-card">
+          <button class="poster" type="button"
+                  data-title="Kaho Naa... Pyaar Hai" data-year="2000" data-role="Rohit / Raj"
+                  data-genre="Romance · Drama" data-description="The debut that created 'Hrithik Mania' and introduced the actor in a memorable dual role."
+                  aria-label="Open details for Kaho Naa... Pyaar Hai">
+            <img src="https://www.iforher.com/wp-content/uploads/2022/07/kaho-naa.jpg" alt="Kaho Naa... Pyaar Hai movie poster" loading="lazy">
+            <div class="poster-fallback"><small>2000</small><strong>KAHO NAA... PYAAR HAI</strong></div>
+            <span class="poster-hover">VIEW FILM →</span>
+          </button>
+          <div class="film-info">
+            <div><h3>Kaho Naa... Pyaar Hai</h3><p>2000 · Rohit / Raj</p></div>
+            <span>Romance</span>
+          </div>
+        </article>
+
+        <article class="film-card">
+          <button class="poster" type="button"
+                  data-title="Mission Kashmir" data-year="2000" data-role="Altaf Khan"
+                  data-genre="Action · Drama" data-description="An early action-drama performance that showed a more intense side of the young actor."
+                  aria-label="Open details for Mission Kashmir">
+            <img src="https://movieassetsdigital.sgp1.cdn.digitaloceanspaces.com/original/6ad020ba8705675926b5810940513c4966ac1590" alt="Mission Kashmir movie poster" loading="lazy">
+            <div class="poster-fallback"><small>2000</small><strong>MISSION KASHMIR</strong></div>
+            <span class="poster-hover">VIEW FILM →</span>
+          </button>
+          <div class="film-info">
+            <div><h3>Mission Kashmir</h3><p>2000 · Altaf Khan</p></div>
+            <span>Action</span>
+          </div>
+        </article>
+
+        <article class="film-card">
+          <button class="poster" type="button"
+                  data-title="Mujhse Dosti Karoge!" data-year="2002" data-role="Raj Khanna"
+                  data-genre="Romance" data-description="A bright early-2000s romantic comedy built around friendship, letters and mistaken identity."
+                  aria-label="Open details for Mujhse Dosti Karoge!">
+            <img src="https://es.web.img3.acsta.net/pictures/210/283/21028366_20130814153817812.jpg" alt="Mujhse Dosti Karoge! movie poster" loading="lazy">
+            <div class="poster-fallback"><small>2002</small><strong>MUJHSE DOSTI KAROGE!</strong></div>
+            <span class="poster-hover">VIEW FILM →</span>
+          </button>
+          <div class="film-info">
+            <div><h3>Mujhse Dosti Karoge!</h3><p>2002 · Raj Khanna</p></div>
+            <span>Romance</span>
+          </div>
+        </article>
+
+        <article class="film-card">
+          <button class="poster" type="button"
+                  data-title="Main Prem Ki Diwani Hoon" data-year="2003" data-role="Prem Kishen Mathur"
+                  data-genre="Romance · Comedy" data-description="A colourful romantic musical with Hrithik in an exuberant, larger-than-life role."
+                  aria-label="Open details for Main Prem Ki Diwani Hoon">
+            <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak%3D/v3/t/assets/p81706_p_v8_aa.jpg" alt="Main Prem Ki Diwani Hoon movie poster" loading="lazy">
+            <div class="poster-fallback"><small>2003</small><strong>MAIN PREM KI DIWANI HOON</strong></div>
+            <span class="poster-hover">VIEW FILM →</span>
+          </button>
+          <div class="film-info">
+            <div><h3>Main Prem Ki Diwani Hoon</h3><p>2003 · Prem Kishen Mathur</p></div>
+            <span>Romance</span>
+          </div>
+        </article>
+
+        <article class="film-card">
+          <button class="poster" type="button"
+                  data-title="Koi... Mil Gaya" data-year="2003" data-role="Rohit Mehra"
+                  data-genre="Sci-Fi · Drama" data-description="Rohit Mehra became one of Hrithik's most emotionally distinctive performances."
+                  aria-label="Open details for Koi... Mil Gaya">
+            <img src="https://cdn.cdnparenting.com/articles/2018/09/05105217/Koi-Mil-Gaya-708x1024.jpeg" alt="Koi... Mil Gaya movie poster" loading="lazy">
+            <div class="poster-fallback"><small>2003</small><strong>KOI... MIL GAYA</strong></div>
+            <span class="poster-hover">VIEW FILM →</span>
+          </button>
+          <div class="film-info">
+            <div><h3>Koi... Mil Gaya</h3><p>2003 · Rohit Mehra</p></div>
+            <span>Sci-Fi</span>
+          </div>
+        </article>
+
+        <article class="film-card">
+          <button class="poster" type="button"
+                  data-title="Lakshya" data-year="2004" data-role="Karan Shergill"
+                  data-genre="Drama · War" data-description="A coming-of-age military drama centred on Karan Shergill's transformation."
+                  aria-label="Open details for Lakshya">
+            <img src="https://i1.sndcdn.com/artworks-Qcmoz0eLlfZZxMoU-5EBRiA-t500x500.jpg" alt="Lakshya movie poster" loading="lazy">
+            <div class="poster-fallback"><small>2004</small><strong>LAKSHYA</strong></div>
+            <span class="poster-hover">VIEW FILM →</span>
+          </button>
+          <div class="film-info">
+            <div><h3>Lakshya</h3><p>2004 · Karan Shergill</p></div>
+            <span>Drama</span>
+          </div>
+        </article>
+
+        <article class="film-card">
+          <button class="poster" type="button"
+                  data-title="Dhoom 2" data-year="2006" data-role="Aryan / Mr. A"
+                  data-genre="Action · Thriller" data-description="Aryan's style, movement and swagger made this one of Hrithik's defining action roles."
+                  aria-label="Open details for Dhoom 2">
+            <img src="https://cinetown.s3.ap-south-1.amazonaws.com/movies/poster/1697131179.jpeg" alt="Dhoom 2 movie poster" loading="lazy">
+            <div class="poster-fallback"><small>2006</small><strong>DHOOM 2</strong></div>
+            <span class="poster-hover">VIEW FILM →</span>
+          </button>
+          <div class="film-info">
+            <div><h3>Dhoom 2</h3><p>2006 · Aryan / Mr. A</p></div>
+            <span>Action</span>
+          </div>
+        </article>
+
+        <article class="film-card">
+          <button class="poster" type="button"
+                  data-title="Jodhaa Akbar" data-year="2008" data-role="Akbar"
+                  data-genre="Historical · Romance" data-description="A sweeping historical romance in which Hrithik portrayed Mughal emperor Akbar."
+                  aria-label="Open details for Jodhaa Akbar">
+            <img src="https://movieburnerentertainment.org/wp-content/uploads/2024/03/img_5624-1.jpg?w=713" alt="Jodhaa Akbar movie poster" loading="lazy">
+            <div class="poster-fallback"><small>2008</small><strong>JODHAA AKBAR</strong></div>
+            <span class="poster-hover">VIEW FILM →</span>
+          </button>
+          <div class="film-info">
+            <div><h3>Jodhaa Akbar</h3><p>2008 · Akbar</p></div>
+            <span>Historical</span>
+          </div>
+        </article>
+
+        <article class="film-card">
+          <button class="poster" type="button"
+                  data-title="Zindagi Na Milegi Dobara" data-year="2011" data-role="Arjun Saluja"
+                  data-genre="Drama · Adventure" data-description="Arjun's journey from work-obsessed professional to someone willing to embrace life."
+                  aria-label="Open details for Zindagi Na Milegi Dobara">
+            <img src="https://cdn.sinemalar.com/images/movie/187191/poster/zindagi-na-milegi-dobara-1660922051.jpg" alt="Zindagi Na Milegi Dobara movie poster" loading="lazy">
+            <div class="poster-fallback"><small>2011</small><strong>ZINDAGI NA MILEGI DOBARA</strong></div>
+            <span class="poster-hover">VIEW FILM →</span>
+          </button>
+          <div class="film-info">
+            <div><h3>Zindagi Na Milegi Dobara</h3><p>2011 · Arjun Saluja</p></div>
+            <span>Drama</span>
+          </div>
+        </article>
+
+        <article class="film-card">
+          <button class="poster" type="button"
+                  data-title="Agneepath" data-year="2012" data-role="Vijay Dinanath Chauhan"
+                  data-genre="Action · Drama" data-description="A darker, intense transformation into Vijay Dinanath Chauhan."
+                  aria-label="Open details for Agneepath">
+            <img src="https://filmlibrary.ie/cdn/shop/products/agneepath-poster_1200x1200.jpg?v=1605715962" alt="Agneepath movie poster" loading="lazy">
+            <div class="poster-fallback"><small>2012</small><strong>AGNEEPATH</strong></div>
+            <span class="poster-hover">VIEW FILM →</span>
+          </button>
+          <div class="film-info">
+            <div><h3>Agneepath</h3><p>2012 · Vijay Dinanath Chauhan</p></div>
+            <span>Action</span>
+          </div>
+        </article>
+
+        <article class="film-card">
+          <button class="poster" type="button"
+                  data-title="Super 30" data-year="2019" data-role="Anand Kumar"
+                  data-genre="Biography · Drama" data-description="A grounded biographical drama inspired by mathematician and educator Anand Kumar."
+                  aria-label="Open details for Super 30">
+            <img src="https://wd-image.webdunia.com/processimg/1200x/webp/_media/en/img/article/2019-06/02/full/1559466180-6557.jpg" alt="Super 30 movie poster" loading="lazy">
+            <div class="poster-fallback"><small>2019</small><strong>SUPER 30</strong></div>
+            <span class="poster-hover">VIEW FILM →</span>
+          </button>
+          <div class="film-info">
+            <div><h3>Super 30</h3><p>2019 · Anand Kumar</p></div>
+            <span>Biography</span>
+          </div>
+        </article>
+
+        <article class="film-card">
+          <button class="poster" type="button"
+                  data-title="War" data-year="2019" data-role="Kabir Dhaliwal"
+                  data-genre="Action · Thriller" data-description="Kabir combines spy-thriller mystery with Hrithik's effortless action-star presence."
+                  aria-label="Open details for War">
+            <img src="https://i.pinimg.com/736x/15/2d/3d/152d3d960b3f4181c58630fe7c1665ff.jpg" alt="War movie poster" loading="lazy">
+            <div class="poster-fallback"><small>2019</small><strong>WAR</strong></div>
+            <span class="poster-hover">VIEW FILM →</span>
+          </button>
+          <div class="film-info">
+            <div><h3>War</h3><p>2019 · Kabir Dhaliwal</p></div>
+            <span>Action</span>
+          </div>
+        </article>
+
+        <article class="film-card">
+          <button class="poster" type="button"
+                  data-title="Vikram Vedha" data-year="2022" data-role="Vedha"
+                  data-genre="Action · Crime" data-description="Vedha brought a rugged, morally complex edge to Hrithik's filmography."
+                  aria-label="Open details for Vikram Vedha">
+            <img src="https://m.media-amazon.com/images/M/MV5BMDI4ZjBhOGQtMGM5OS00YjJmLThmYmUtZjA5ZjYzMjcyN2M1XkEyXkFqcGc%40._V1_.jpg" alt="Vikram Vedha movie poster" loading="lazy">
+            <div class="poster-fallback"><small>2022</small><strong>VIKRAM VEDHA</strong></div>
+            <span class="poster-hover">VIEW FILM →</span>
+          </button>
+          <div class="film-info">
+            <div><h3>Vikram Vedha</h3><p>2022 · Vedha</p></div>
+            <span>Action</span>
+          </div>
+        </article>
+
+        <article class="film-card">
+          <button class="poster" type="button"
+                  data-title="Fighter" data-year="2024" data-role="Shamsher Pathania"
+                  data-genre="Action · Aviation" data-description="Shamsher Pathania marked Hrithik's return to large-scale aviation action."
+                  aria-label="Open details for Fighter">
+            <img src="https://greenmangomore.com/wp-content/uploads/2023/12/Hrithik-Movie-Fighter-Posrter.jpg" alt="Fighter movie poster" loading="lazy">
+            <div class="poster-fallback"><small>2024</small><strong>FIGHTER</strong></div>
+            <span class="poster-hover">VIEW FILM →</span>
+          </button>
+          <div class="film-info">
+            <div><h3>Fighter</h3><p>2024 · Shamsher Pathania</p></div>
+            <span>Action</span>
+          </div>
+        </article>
+
+        <article class="film-card">
+          <button class="poster" type="button"
+                  data-title="Bang Bang!" data-year="2014" data-role="Rajveer Nanda"
+                  data-genre="Action · Romance" data-description="Rajveer Nanda delivered a glossy, globe-trotting action-romance experience."
+                  aria-label="Open details for Bang Bang!">
+            <img src="https://aambar.wordpress.com/wp-content/uploads/2014/10/bang-bang-new-poster.jpg" alt="Bang Bang! movie poster" loading="lazy">
+            <div class="poster-fallback"><small>2014</small><strong>BANG BANG!</strong></div>
+            <span class="poster-hover">VIEW FILM →</span>
+          </button>
+          <div class="film-info">
+            <div><h3>Bang Bang!</h3><p>2014 · Rajveer Nanda</p></div>
+            <span>Action</span>
+          </div>
+        </article>
+
+        <article class="film-card">
+          <button class="poster" type="button"
+                  data-title="Krrish 3" data-year="2013" data-role="Krrish"
+                  data-genre="Superhero · Sci-Fi" data-description="The superhero franchise returned with Hrithik as the iconic Krrish."
+                  aria-label="Open details for Krrish 3">
+            <img src="https://cdn.arageek.com/magazine/MV5BMjI0MzU3MTM1Ml5BMl5BanBnXkFtZTgwOTk2MjQ0MDE%40._V1_FMjpg_UX1000_.jpg" alt="Krrish 3 movie poster" loading="lazy">
+            <div class="poster-fallback"><small>2013</small><strong>KRRISH 3</strong></div>
+            <span class="poster-hover">VIEW FILM →</span>
+          </button>
+          <div class="film-info">
+            <div><h3>Krrish 3</h3><p>2013 · Krrish</p></div>
+            <span>Superhero</span>
+          </div>
+        </article>
+
+  </div>
+</section>
+
+<section class="eras section reveal" id="eras">
+  <div class="index">03 / THE ERAS</div>
+  <div class="heading-row"><div><p class="mono gold">SCREEN PRESENCE</p><h2>The young star.<br><em>The icon.</em></h2></div><p class="muted note">Tasteful portraits only — no shirtless or physique-focused photography.</p></div>
+  <div class="era-grid">
+    <figure class="era large"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Hrithik%20Roshan%20in%202001.jpg" alt="Hrithik Roshan in 2001"><figcaption><small>2001</small><b>THE EARLY YEARS</b></figcaption></figure>
+    <figure class="era"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Hrithik%20Roshan.jpg" alt="Hrithik Roshan in 2013"><figcaption><small>2013</small><b>THE LEADING MAN</b></figcaption></figure>
+    <figure class="era"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Hrithik%20Roshan%20in%202019.png" alt="Hrithik Roshan in 2019"><figcaption><small>2019</small><b>THE MODERN ICON</b></figcaption></figure>
+    <figure class="era wide"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Hrithik%20Roshan%20in%202024%20%28cropped%29.jpg" alt="Hrithik Roshan during Fighter promotions"><figcaption><small>2024</small><b>FIGHTER ERA</b></figcaption></figure>
+  </div>
+</section>
+
+<section class="fan section reveal" id="fan">
+  <div class="index">04 / FAN ZONE</div>
+  <div class="fan-grid">
+    <div class="quiz">
+      <p class="mono gold">HOW WELL DO YOU KNOW HIM?</p><h2>THE <em>HR</em> QUIZ</h2>
+      <div class="progress"><span id="progress"></span></div>
+      <h3 id="question">Ready?</h3><div id="answers"></div>
+      <button class="btn" id="next">Start quiz →</button><p class="result" id="result"></p>
+    </div>
+    <div class="fact">
+      <p class="mono gold">DID YOU KNOW?</p><h2>REVEAL A <em>FACT.</em></h2>
+      <p id="fact">His lead-actor debut was Kaho Naa... Pyaar Hai in 2000.</p>
+      <button class="btn" id="factBtn">Reveal another ✦</button>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="footer-logo">HR<span>.</span></div><div><p>An unofficial fan page celebrating Hrithik Roshan's films, characters and screen presence.</p><small>Made with HTML · Vanilla CSS · Vanilla JavaScript · Educational project</small></div><a href="#home">BACK TO TOP ↑</a></footer>
+
+<div class="modal" id="modal"><div class="shade"></div><div class="modal-box"><button id="close">×</button><p class="mono gold" id="mYear"></p><h2 id="mTitle"></h2><b id="mRole"></b><p id="mGenre"></p><p class="muted" id="mDesc"></p></div></div>
+
+<script src="script.js"></script>
+</body>
+</html>
