@@ -1,0 +1,70 @@
+/* styles.css - Challenge #1 (Skeleton) */
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(212, 14, 153);
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+body {
+    background-color: rgb(226, 218, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+p.tagline {
+    font-style: italic;
+    text-align: center;
+    color: gray;
+    margin-bottom: 25px;
+}
+
+section.about {
+    text-align: left;
+    line-height: 30px;
+}
+
+
+#mascot-image {
+    width: 40%;
+    padding: 0px 30px;
+    border: black solid 2px;
+    border-radius: 7%;
+    background-color: white;
+}
+
+
+button {
+    color: white;
+    font-weight: bold;
+    border-radius: 11px;
+    padding: 10px 15px;
+    margin: 7px;
+    transition: 0.3s;
+    margin-bottom: 50px;
+}
+
+.buy-tickets {
+    background-color: rgb(67, 206, 67);
+    box-shadow: 5px 5px 5px rgba(62, 238, 244, 0.527);
+}
+.make-donation {
+    background-color: rgb(41, 14, 247);
+    box-shadow: 5px 5px 5px rgba(241, 21, 211, 0.4);
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(-8px);
+    filter: brightness(0.85);
+}
+
+footer {
+    border-top: rgb(198, 196, 196) 1px solid;
+    padding: 5px;
+    font-size: 15px;
+    color: rgb(84, 83, 83);
+}
